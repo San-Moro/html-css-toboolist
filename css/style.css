@@ -1,0 +1,25 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #f6f8f9;
+}
+
+/* HEADER */
+.bg-header {
+    background-color: #ffffff;
+    width: 200em;
+    height: 4em;
+}
+
+#image-logo {
+    padding: 0.4em;
+    padding-left: 1.5em;
+}
+
+#logotipo {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
