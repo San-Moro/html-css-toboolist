@@ -5,12 +5,18 @@
    background-color: #f6f8f9;
 }
 
+body {
+    background-color: #f6f8f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* HEADER */
 .bg-header {
     background-color: #ffffff;
     width: 200em;
     height: 4em;
 }
+
 
 #image-logo {
     padding: 0.4em;
@@ -21,7 +27,6 @@
     display: inline-block;
     vertical-align: top;
     font-size: 3rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* MAIN */
@@ -31,6 +36,7 @@
     margin: 0 auto;
     margin-top: 4em;
     background-color: white;
+    padding-left: 2em;
 }
 
 /* buttons */
@@ -46,7 +52,7 @@
     height: 2.5em;
     float: left;
     margin-top: 1em;
-    margin-left: 2em;
+    /* margin-left: 2em; */
     color: white;
     background-color: #47adf1;
     border-radius: 0.6em;
@@ -62,4 +68,56 @@
     border-radius: 0.6em;
     border: 1px solid grey;
 }
+
+/* List */
+.content {
+    padding: 5em 2.5em;
+    color: #444851;
+}
+ul {
+    list-style-type: none;
+}
+
+.sections-list li {
+    margin-bottom: 2em;
+}
+
+.content h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.content li.text-task {
+    font-size: 1.2rem;
+}
+
+.circle {
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    border: 1px solid green;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.check {
+    color: green;
+    border-color: green;
+}
+
+.labels {
+    font-size: .8rem;
+    color: white;
+    padding: .4em .6em;
+    border-radius: 10px;
+}
+
+.label-1 {
+    background-color: #F29E33;
+}
+
 
